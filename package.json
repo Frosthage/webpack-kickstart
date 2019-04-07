@@ -1,0 +1,33 @@
+{
+  "name": "webpack-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode development",
+    "serve": "webpack-dev-server --config webpack.config.js --open"
+  },
+  "keywords": [],
+  "sideEffects": false,
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "@webpack-cli/init": "^0.1.5",
+    "clean-webpack-plugin": "^0.1.19",
+    "cowsay": "^1.3.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.4",
+    "prettier": "^1.14.3",
+    "prettier-webpack-plugin": "^1.1.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.2.2",
+    "typescript": "^3.1.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
